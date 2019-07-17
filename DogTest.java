@@ -13,5 +13,6 @@ public class DogTest {
 
     Yorkshire yorkshire = new Yorkshire("David");
     System.out.println(yorkshire.getName() + " says " + yorkshire.speak() + ".");
+    System.out.println(yorkshire.getName() + " weights " + yorkshire.avgBreedWeight() + " pounds.");
     }
     }
